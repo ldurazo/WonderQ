@@ -1,9 +1,9 @@
-import Message from '../models/Message';
-import { Queue } from 'prioqueue'
+import Message from '../models/Message.js';
+import Queue from 'prioqueue'
 import { v4 as uuid } from 'uuid'
 
 /* A priority queue, we use maximum priority rather than lowest value to define priority */
-const passiveQueue = new Queue((x, y) => x.priority - y.priority);
+const passiveQueue = new Queue.Queue((x, y) => x.priority - y.priority);
 
 /* An array that is simply a util that holds all currently "grabbed" by consumers messages, useful to stop the timer */
 const activeItems = [];

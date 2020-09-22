@@ -1,5 +1,5 @@
 import express from 'express';
-import WonderQ from '../services/WonderQ';
+import WonderQ from '../services/WonderQ.js';
 
 const router = express.Router();
 
