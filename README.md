@@ -67,7 +67,7 @@ Returns the number of items in the queue in the following format:
 - Different data sources and layers for the messaging queues, 
   - Are the messages short lived and high volume? consider an in-memory cache system like couchbase or Redis. 
   - Are the messages very high in volume but also take a long time to be grabbed by a consumer? are the messages bound to a schema? Use postgres, but more likely than not the objects will be more generic so a NoSQL database make more sense.
-  - Is the volume getting worldwide big? since uuid's were created from the initial design, database sharding is possible to distribute among CDN's.
+  - Is the volume getting worldwide big? since uuid's were created from the initial design, database sharding is possible
 - Make tests configurable, split test and prod configurations.
   - Add automated E2E testing, SuperTest seems to fit the case, Cypress could be considered if a client is underway
 - Add out of the box API wrappers! similar to what other API's do, give your users published and maintained libraries that they can use reducing the amount of user facing issues (with a higher maintenance cost, though)
