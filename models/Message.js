@@ -39,7 +39,7 @@ export default class Message {
     reinsertSelfAfterTimeout(queue, activeItems) {
         this.timer = setTimeout(() => {
             // Puts itself with a higher priority back in the queue
-            queue.enqueue(this.priority++, this);
+            queue.enqueue(++this.priority, this);
 
             // Removes itself from the active items list
             const queueItemIdx = activeItems.findIndex((q) => q.id === this.id);
