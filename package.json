@@ -6,6 +6,9 @@
   "repository": "https://github.com/ldurazo/WonderQ.git",
   "author": "luisdurazoa@gmail.com",
   "license": "None",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
