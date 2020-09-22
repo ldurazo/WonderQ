@@ -6,6 +6,7 @@ import config from '../config.json';
 export default class Message {
     /* The uuid generated for this message */
     id;
+
     /* The message itself */
     message;
 
