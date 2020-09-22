@@ -7,9 +7,10 @@
   "author": "luisdurazoa@gmail.com",
   "license": "None",
   "scripts": {
-    "start": "node app.js"
+    "start": "node -r esm app.js"
   },
   "dependencies": {
+    "esm": "^3.2.25",
     "express": "^4.17.1"
   }
 }

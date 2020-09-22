@@ -1,6 +1,6 @@
-const express = require('express');
-const indexRouter = require('./routes/index');
-const http = require('http');
+import express from "express";
+import indexRouter from "./routes";
+import http from "http";
 
 const app = express();
 
@@ -38,4 +38,3 @@ app.use((err, req, res) => {
   res.type('txt').send('Not found');
 });
 
-module.exports = app;
