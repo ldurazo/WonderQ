@@ -1,5 +1,5 @@
 {
-  "name": "WonderQ",
+  "name": "wonderq",
   "version": "1.0.0",
   "description": "A simple message queue",
   "main": "index.js",
