@@ -1,0 +1,12 @@
+{
+  "name": "WonderQ",
+  "version": "1.0.0",
+  "description": "A simple message queue",
+  "main": "index.js",
+  "repository": "https://github.com/ldurazo/WonderQ.git",
+  "author": "luisdurazoa@gmail.com",
+  "license": "None",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
