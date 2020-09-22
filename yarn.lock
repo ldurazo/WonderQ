@@ -70,11 +70,6 @@ depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
-dequeue@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/dequeue/-/dequeue-1.0.5.tgz#10f1cef07e3234b21dcb38f4bfa2d66034ab67c7"
-  integrity sha1-EPHO8H4yNLIdyzj0v6LWYDSrZ8c=
-
 destroy@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
@@ -272,6 +267,11 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+prioqueue@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prioqueue/-/prioqueue-1.0.0.tgz#4411f321eb1b6f6d3b1a9d8c6b46fdbe69fdf195"
+  integrity sha512-D0WDDfNJThoX9mJbrkbmE8M3hetC6UaErCBQAXcqjx1J5QfTYGvQj5+DSD33Rya/hKvs5RNgMBWvJB7LYzd4Zw==
+
 proxy-addr@~2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.6.tgz#fdc2336505447d3f2f2c638ed272caf614bbb2bf"
@@ -371,6 +371,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
+  integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
 
 vary@~1.1.2:
   version "1.1.2"

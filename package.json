@@ -10,8 +10,9 @@
     "start": "node -r esm app.js"
   },
   "dependencies": {
-    "dequeue": "^1.0.5",
     "esm": "^3.2.25",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "prioqueue": "^1.0.0",
+    "uuid": "^8.3.0"
   }
 }
