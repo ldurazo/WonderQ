@@ -71,3 +71,6 @@ Returns the number of items in the queue in the following format:
 - Make tests configurable, split test and prod configurations.
   - Add automated E2E testing, SuperTest seems to fit the case, Cypress could be considered if a client is underway
 - Add out of the box API wrappers! similar to what other API's do, give your users published and maintained libraries that they can use reducing the amount of user facing issues (with a higher maintenance cost, though)
+
+#### Disclaimer
+This is not a production ready project, and should serve educational purposes only.
