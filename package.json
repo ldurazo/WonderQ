@@ -1,18 +1,23 @@
 {
   "name": "wonderq",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple message queue",
   "main": "index.js",
   "repository": "https://github.com/ldurazo/WonderQ.git",
   "author": "luisdurazoa@gmail.com",
-  "license": "None",
   "scripts": {
-    "start": "node -r esm app.js"
+    "start": "node --experimental-json-modules app.js",
+    "test": "jest"
   },
   "dependencies": {
-    "esm": "^3.2.25",
     "express": "^4.17.1",
     "prioqueue": "^1.0.0",
     "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "jest": "^26.4.2"
   }
 }
